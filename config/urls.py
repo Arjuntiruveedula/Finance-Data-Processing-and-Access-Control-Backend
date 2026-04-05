@@ -33,7 +33,7 @@ schema_view = get_schema_view(
    permission_classes=(permissions.AllowAny,),
 )
 
-from users.roles_views import RoleViewSet, PermissionListView
+from users.views import RoleViewSet, PermissionListView
 from rest_framework.routers import DefaultRouter
 
 roles_router = DefaultRouter()
